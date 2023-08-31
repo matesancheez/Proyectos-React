@@ -9,7 +9,7 @@ export const Ganador = ({ ganador, reiniciar }) => {
         <div className="contenedor_ganador">
           <div className="contenido">
             <img
-              src="../public/winner.gif"
+              src="../assets/winner.gif"
               alt="rata bailando"
               className="gif"
             />
