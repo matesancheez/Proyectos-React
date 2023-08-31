@@ -2,7 +2,7 @@
 
 Estos son proyectos simples de practica de react, en ellos se ve el uso de diferentes hooks como asi tambien el uso de contexto y local storage.
 
-| Encabezado 1                  | Encabezado 2                                |
+| Proyectos                     | Pagina                                      |
 | ----------------------------- | ------------------------------------------- |
 | Ta Te Ti                      | [Ver Sitio](http://tateti.surge.sh/)           |
 | Fetch de Gatos                | [Ver Sitio](http://cats-test.surge.sh/)        |
