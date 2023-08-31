@@ -1,0 +1,55 @@
+
+.container-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 26px;
+  }
+  
+  .cont{
+    width: auto;
+    height: auto;
+    transition: 250ms;
+  }
+  
+  .cont:hover{
+    scale: calc(1.01);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3)
+  }
+  
+  .cont img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+  
+  .text{
+    padding: 0px 10px 10px 10px;
+  }
+  
+  .text p, h4, h3{
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  
+  .text p span{
+    color: rgba(141, 141, 141, 0.683);
+  }
+  
+  .price{
+    margin-top: 0px;
+  }
+
+.info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agregar{
+  background-color: rgba(0, 0, 0, 0.0);
+  border: none;
+}

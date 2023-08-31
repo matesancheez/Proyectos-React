@@ -1,0 +1,8 @@
+#Prueba tecnica de react LiveCodeing
+
+Recupera un hecho aleatorio de gatos y muestra una imagen de gato con la primera palabra del hecho.
+
+API's:
+- hecho: https://www.catfact.ninja/fact 
+- imagen: https://cataas.com/cat/says/{prop}
+           

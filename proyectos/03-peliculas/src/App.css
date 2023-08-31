@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding-inline: 0;
+}
+
+header{
+  background-color: #444444;
+  color: white;
+  padding: 15px;
+}
+
+b{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+}
+
+section{
+  padding: 10px;
+}
+
+.container-flex-form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn{
+  background-color: #444444;
+  border: none;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.pelicula{
+  height: 600px;
+  background-color: #242424;
+  transition: 500ms;
+}
+
+.pelicula img{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  transition: 500ms;
+}
+
+.pelicula div p{
+  text-align: center;
+  padding: 10px;
+}
+
+.pelicula:hover{
+  background-color: #3c3c3c;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+  transform: scale(1.03);
+}
+
+@media (max-width: 425px){
+  .container-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 425px){
+  .container-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

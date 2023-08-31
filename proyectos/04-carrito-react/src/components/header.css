@@ -1,0 +1,32 @@
+.container-filtros{
+    padding-bottom: 30px;
+}
+
+.container-filtros h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.filtros{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 490px){
+    .filtros{
+        display: block;
+    }
+}
+
+.filtros div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+}
+
+.filtros div input, select{
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+}
